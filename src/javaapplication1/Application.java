@@ -17,7 +17,7 @@ public class Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-String input= JOptionPane.showInputDialog("enter your name ");
+        String input = JOptionPane.showInputDialog("enter your name ");
         System.out.println(input);
         String name = "gabriel";
         int number1 = 8;
@@ -31,9 +31,17 @@ String input= JOptionPane.showInputDialog("enter your name ");
         int numberA = 100;
         int numberB = 3;
 
-        int answer01 = numberA*numberB;
+        int answer01 = numberA * numberB;
+        boolean Answer02 = false;
 
-        System.out.println(answer01);
+        System.out.println(Answer02);
 
+        int NumberC = 8538;
+        int NumberD = 84;
+
+        int Answer03 = NumberC / NumberD;
+        int NumberE = 345;
+        int NumberF = 654;
+//        int answer = NumberE;
     }
 }
