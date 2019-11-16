@@ -28,10 +28,10 @@ String input= JOptionPane.showInputDialog("enter your name ");
         System.out.println(number1 * number2);
         System.out.println(name + answer);
         // TODO code application logic here
-        int numberA = 1;
-        int numberB = 0;
+        int numberA = 100;
+        int numberB = 3;
 
-        int answer01 = 1 - 0;
+        int answer01 = numberA*numberB;
 
         System.out.println(answer01);
 
